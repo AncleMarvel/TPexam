@@ -11,6 +11,7 @@ public class Program {
         System.out.println(month);
 
         Quarter quarter = new Quarter(month);
-        System.out.println("Now quarter " + quarter.getQuarter());
+        System.out.println("Now quarter IS " + quarter.getQuarter());
+        
     }
 }
